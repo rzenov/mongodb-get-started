@@ -61,7 +61,7 @@ public class ReadExamples {
             List<Document> docs = gradesCollection.find(and(eq("student_id", 10001), lte("class_id", 5)))
                     .projection(fields(excludeId(), include("class_id", "student_id")))
                     .sort(descending("class_id"))
-                    .skip(2)
+//                    .skip(2)
                     .limit(2)
                     .into(new ArrayList<>());
 
