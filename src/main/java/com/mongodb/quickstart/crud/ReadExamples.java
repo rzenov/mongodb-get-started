@@ -1,4 +1,4 @@
-package com.mongodb.quickstart;
+package com.mongodb.quickstart.crud;
 
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
